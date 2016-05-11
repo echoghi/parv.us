@@ -1,2 +1,2 @@
 # ba.lu
-A url shortening service with Node.js and MongoDB
+A Node.js, Express, and MongoDB URL shortening service
