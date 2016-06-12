@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(__dirname));
 
 app.get('/', function(req, res){
-  res.sendFile(path.join(__dirname, 'Views/index.html'));
+  res.sendFile(path.join(__dirname, 'views/index.html'));
 });
 
 app.post('/api/shorten', function(req, res){
